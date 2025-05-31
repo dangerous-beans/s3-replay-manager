@@ -1,0 +1,30 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "b0be0e302d70462a8b192d9816396ecedd5199872d51c3d9caf6ccac66556e17"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_full_version": "3.12.2",
+            "python_version": "3.12"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "nso-api": {
+            "hashes": [
+                "sha256:f189092d377b0155522f40d46fa955ce2c5b21d9ebf61c6b276d5af9d22840b2"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.6'",
+            "version": "==0.9.18"
+        }
+    },
+    "develop": {}
+}

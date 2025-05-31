@@ -1,0 +1,1 @@
+Copy-paste any text on this file, the script will attempt to download all codes in the format XXXX-XXXX-XXXX-XXXX that can be found in the text
