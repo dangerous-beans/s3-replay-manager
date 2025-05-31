@@ -4,7 +4,7 @@ import re
 
 from nso_api.nso_api import NSO_API
 
-from auth import get_nso_api
+from auth import login_from_cli
 
 def get_codes() -> list[str]:
     """
@@ -51,7 +51,7 @@ def download_all_replays(nso: NSO_API):
 
 
 if __name__ == "__main__":
-    nso = get_nso_api()
+    nso = login_from_cli()
     if nso is None:
         print("Failed to initialize NSO API.")
     else:
